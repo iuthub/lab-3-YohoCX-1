@@ -1,0 +1,59 @@
+body {
+    margin: 0 10%;
+    background-image: url(images/bg.jpg);
+}
+
+.intro h2 {
+    font-size: 14pt;
+}
+
+#body {
+    border: 10px white solid;
+    background-color: white;
+}
+
+.intro {
+    border: 5px #A8F0F0 solid;
+    background-color: #A8F0F0;
+    text-align: right;
+}
+
+.container {
+    clear: both;
+    overflow: hidden;
+}
+
+.leftbar {
+    margin: 10px 0;
+    float: left;
+    width: 29%;
+    
+    padding: 5px;
+    border: 5px #C2E9E9 solid;
+    background-color:  #E8FBFB;
+}
+
+.rightbar {
+    float: right;
+    width: 68%;
+}
+
+.content {
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin: 10px 0 0 0;
+}
+
+.content span {
+    border-bottom: #009097 dashed 2px;
+}
+
+.innerContent {
+    clear: right;
+    overflow: hidden;
+}
+
+.image {
+    float: right;
+}
